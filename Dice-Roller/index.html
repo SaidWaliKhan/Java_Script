@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎲 Dice Roll Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Dice Roll Simulator</h1>
+
+    <div class="dice-wrapper">
+      <div class="dice" id="dice">⚀</div>
+    </div>
+
+    <div class="info">
+      <p>Current roll: <span id="current-roll">—</span></p>
+      <p>Total sum: <span id="total-sum">0</span></p>
+      <p>Rolls: <span id="roll-count">0</span></p>
+    </div>
+
+    <button id="roll-button">Roll Dice</button>
+    <button id="clear-btn" class="clear-btn">🗑️ Clear History</button>
+
+    <ul id="roll-history"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
